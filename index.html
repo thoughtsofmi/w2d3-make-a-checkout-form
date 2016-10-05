@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Billing</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Stylesheets go here. -->
+  <script src="https://use.fontawesome.com/1b7e1608c5.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/form.css" />
 </head>
@@ -411,6 +412,7 @@
               </label>
             </div> <!--checkbox end div -->
         </div>
+      </div> <!--end row of billing heading and checkbox -->
         <div class="row">
           <div class="col-sm-12">
             <div class="form-group">
@@ -424,7 +426,7 @@
           <div class="col-sm-12">
             <div class="form-group">
               <label class="baddress2 sr-only" for="baddress2"> </label>
-              <input type="text" id="address2"
+              <input type="text" id="baddress2"
               name="baddress2" class="form-control" placeholder="Apt, Suite, Bldg.(opt)">
             </div>
           </div>
@@ -760,10 +762,13 @@
       </div>
       <div class="panel body 2">
         <div class="row">
-          <div class="col-sm-3"><img src="http://unsplash.it/800?image=444" alt="a pic" class="img-responsive thumbnail" /></div>
-          <div class="col-sm-3"><img src="http://unsplash.it/800?image=444" alt="a pic" class="img-responsive thumbnail" /></div>
-          <div class="col-sm-3"><img src="http://unsplash.it/800?image=444" alt="a pic" class="img-responsive thumbnail" /></div>
-          <div class="col-sm-3"><img src="http://unsplash.it/800?image=444" alt="a pic" class="img-responsive thumbnail" /></div>
+          <div class="col-sm-4">
+            <i class="fa fa-cc-discover fa-5x" aria-hidden="true"></i></div>
+          <div class="col-sm-4">
+            <i class="fa fa-cc-visa fa-5x" aria-hidden="true"></i></div>
+          <div class="col-sm-4">
+            <i class="fa fa-cc-mastercard fa-5x" aria-hidden="true"></i></div>
+          </div>
         <div class="row">
           <div class="col-sm-12">
             <div class="form-group">
@@ -831,7 +836,7 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <span class="glyphicon glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+            <i class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
             </div>
           </div>
         </div> <!-- row closing for crv -->
